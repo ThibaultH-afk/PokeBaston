@@ -2,9 +2,13 @@
 
 * En tant que **Joueur**, je **veux** pouvoir ajouter jusqu'à 6 Pokémon **afin** de pouvoir lancer la partie.
 
-* En tant que **Joueur**, je **veux** pouvoir affronter un autre joueur **afin** 
+* En tant que **Joueur**, je **veux** pouvoir affronter un autre joueur **afin**
+
+* En tant que **Joueur**, je **veux** que le tour que j'ai effectué soit résumé dans un message écrit (action effectuée, %age de dégats, pokémon mis ko)
 
 * En tant que **Joueur**, je **veux** pouvoir l'historique des actions **afin** de d'élaborer des stratégies de jeu
+
+* En tant que **Joueur**, je **veux** avoir accès à une interface me donnant des informations sur le pokémon adverse (nom, nombre de point de vie)
 
 * En tant que **Joueur**, je **veux** accéder à un menu d'actions au début de mon tour **afin** de choisir entre attaquer, changer de pokémon ou utiliser un objet
 
@@ -12,9 +16,9 @@
 
 * En tant que **Joueur**, je **veux** pouvoir consulter la liste des pokémon en réserve **afin** de séléctionner un pokémon valide 
 
-* En tant que **Joueur**, je **veux** visualiser mon inventaire d'objet **afin** d'utiliser un consommable sur le pokémon séléctionné
+* En tant que **Joueur**, je **veux** visualiser mon inventaire d'objets **afin** d'utiliser un consommable sur le pokémon séléctionné
 
-* En tant que **Joueur**, je **veux** pouvoir "Locker" une fois que j'ai réalisé l'action **afin** de validé mon tour et passer au tour suivant
+* En tant que **Joueur**, je **veux** pouvoir "Lock" une fois que j'ai réalisé l'action **afin** de validé mon tour et passer au tour suivant
 
 * En tant que **Joueur**, je **veux** pouvoir séléctionner un remplaçant immédiatement lorsqu'un de mes pokémon est ko **afin** de poursuivre le combat
 
