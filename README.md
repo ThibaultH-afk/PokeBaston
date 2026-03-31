@@ -13,7 +13,7 @@
 ---
 
 ## 🎮 Contexte du jeu
-Chaque dresseur doit choisir **6 Pokémon** parmi les 151 présents dans la première génération.
+Chaque dresseur doit choisir jusqu'à **6 Pokémon** parmi les 151 présents dans la première génération.
 
 ### Déroulement du combat
 À l'issue de ce choix, les joueurs envoient un Pokémon chacun dans l'arène. Le premier joueur qui n'a plus de Pokémon a perdu le match.
@@ -26,8 +26,7 @@ Chaque dresseur doit choisir **6 Pokémon** parmi les 151 présents dans la prem
 | Action | Détails |
 | :--- | :--- |
 | **Changer de Pokémon** | Impossible de choisir un Pokémon qui n'a plus de PV. |
-| **Utiliser un objet** | Dans la limite des stocks disponibles (offre plusieurs types de bonus). |
-| **Attaquer** | La notion de **supériorité des types** est prise en compte (ex: Eau > Feu). |
+| **Attaquer** | La notion d'**efficacité des types** est prise en compte (ex: Eau > Feu). |
 
 ---
 
@@ -44,11 +43,5 @@ Un Pokémon se définit par les statistiques suivantes :
 Chaque capacité possède :
 * **Puissance de base**
 * **Type** (Élémentaire)
-* **Distance** (Physique ou Spéciale)
-* **Utilisation** (Nombre de PP)
-
-### Définition des objets
-Un objet se définit par :
-* **Nom**
-* **Effet**
-* **Puissance**
+* **Catégorie** (Physique ou Spéciale)
+* **Utilisations** (Nombre de PP)
