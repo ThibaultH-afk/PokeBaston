@@ -48,6 +48,9 @@ Pour garantir la cohésion de l'équipe, nous avons mis en place trois piliers :
 * **Problème 1 : Abandon du système d'objets (Inventaire)**
     * *Description :* Initialement, nous avions prévu une gestion des objets consommables (potions, soins). Cependant, l'équipe de développement s'est rendu compte que l'implémentation de l'inventaire et son lien avec les statistiques en plein combat demandaient trop de temps par rapport à notre deadline.
     * *Solution :* L'équipe a décidé de retirer cette fonctionnalité du périmètre. Nous avons donc supprimé les User Stories associées pour que les développeurs puissent se concentrer à 100% sur la stabilité des mécaniques vitales (attaques et changements de Pokémon).
+ * **Problème 2 : Mocks**
+    * *Description :* Lors de la réalisation des tests unitaires, le développeur test s'est rendu compte qu'il y avait des problèmes au niveau des mockscar il était impossible de réaliser les tests de la meme manière dans différentes parties de l'application
+    * *Solution :* L'équipe a du modifier l'architecture du projet pour pouvoir effectuer les tests unitaires.
 
 ---
 
@@ -60,8 +63,9 @@ Pour garantir la cohésion de l'équipe, nous avons mis en place trois piliers :
     * **Décision :** Pour ne pas mettre en péril la stabilité du moteur de combat principal (attaques et changements de Pokémon), nous avons décidé d'écarter cette fonctionnalité. Cela a entraîné le retrait de toutes les User Stories associées.
 
 * **Points perfectibles :**
-    * **Mode Solo (Joueur contre Ordinateur) :** Le jeu actuel est un affrontement 1v1 local. De base, nous voulions intégrer un mode où le joueur affronte l'ordinateur, avec des actions générées de manière aléatoire. C'est un point perfectible majeur : implémenter cet adversaire aléatoire dans un premier temps, puis le faire évoluer vers une véritable algorithmique capable de calculer les faiblesses de type.
+    * **Mode Solo (Joueur contre Ordinateur) :** Le jeu actuel est un affrontement 1v1 local. De base, nous voulions intégrer un mode où le joueur affronte l'ordinateur, avec des actions générées de manière aléatoire. C'est un point perfectible majeur : implémenter cet adversaire aléatoire dans un premier temps, puis le faire évoluer vers une véritable algorithmique capable de choisir des actions optimisées.
     * **Interface et Feedback visuel** : L'interface pourrait être enrichie d'animations pour les barres de vie et de messages de combat plus dynamiques (ex: secousses de l'écran lors d'un coup critique) pour améliorer l'immersion.
+    * **Complexité du système de combat** : De nombreux aspects des combats des jeux originaux n'ont pas été inclus dans le projet. Les ajouter permettrait de proposer une expérience plus similaire à l'original.
 ---
 
 ## 6. Retours personnels sur le module
